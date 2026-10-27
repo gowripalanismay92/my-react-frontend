@@ -1,0 +1,9 @@
+command:
+  - "node"
+  - "server.js"
+
+env:
+  - name: "PORT"
+    valueFrom: "DATABRICKS_APP_PORT"
+  - name: "FASTAPI_BACKEND_URL"
+    value: "https://my-fastapi-backend-7474652844382640.aws.databricksapps.com"
